@@ -26,7 +26,7 @@ public class PageMakerDTO {
 		this.total = total;
 		
 //		시작 페이지
-		this.endPage = (int)(Math.ceil(cri.getPageNum()/10.0))*10;
+		this.endPage = (int)(Math.ceil(cri.getPageNum()/10.0))*10; // Math.ceil: 소수점이 존재할 때 
 		
 //		마지막 페이지
 		this.startPage = this.endPage - 9;
