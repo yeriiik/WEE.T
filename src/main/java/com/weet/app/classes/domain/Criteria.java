@@ -32,8 +32,8 @@ public class Criteria {
 
 	// 원하는 페이지 Num, 원하는 amount
 	public Criteria(int pageNum, int amount) {
-		this.pageNum = 1;
-		this.amount = 15;
+		this.pageNum = pageNum;
+		this.amount = amount;
 	} 
 	
 
